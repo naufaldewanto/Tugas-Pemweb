@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Belanja</title>
+</head>
+
+<body style="background-color: rgb(0, 156, 0);">
+    <!-- Header -->
+    <div>
+        <h1 id="header">Toko Elektronik</h1>
+    </div>
+
+    <!-- Isi -->
+
+    <form action="detail.php" method="get">
+        <!-- <div class="grid-container"> -->
+        <table border="1">
+            <tr>
+                <td>
+                    <div class="grid-item">
+                        <input type="checkbox" id="barang1" class="cekbox" name="barang[]" value="TV Samsung">
+                        <label for="barang1">
+                            <img id="gmbr_barang1" class="gmbr_barang" src="assets/images/tv-samsung.webp" width="300px"
+                                height="300px"><br>
+                        </label>
+                    </div>
+                    <label for="number1" style="color: white; font-size: 25px;">Banyaknya</label>
+                    <input type="number" id="number1" name="banyak[]" size="5">
+                </td>
+
+                <td>
+                    <div class="grid-item">
+                        <input type="checkbox" id="barang2" class="cekbox" name="barang[]" value="RTX 4090">
+                        <label for="barang2">
+                            <img id="gmbr_barang2" class="gmbr_barang" src="assets/images/rtx4090.png" width="300px"
+                                height="300px"><br>
+                        </label>
+                    </div>
+                    <label for="number2" style="color: white; font-size: 25px;">Banyaknya</label>
+                    <input type="number" id="number2" name="banyak[]" size="5">
+                </td>
+
+                <td>
+                    <div class="grid-item">
+                        <input type="checkbox" id="barang3" class="cekbox" name="barang[]" value="iphone 14">
+                        <label for="barang3">
+                            <img id="gmbr_barang3" class="gmbr_barang" src="assets/images/iphone14.png" width="300px"
+                                height="300px"><br>
+                        </label>
+                    </div>
+                    <label for="number3" style="color: white; font-size: 25px;">Banyaknya</label>
+                    <input type="number" id="number3" name="banyak[]" size="5">
+                </td>
+
+            </tr>
+
+        </table>
+        <!-- </div> -->
+        <br>
+        <input type="submit" id="btn_submit">
+    </form>
+</body>
+
+</html>
