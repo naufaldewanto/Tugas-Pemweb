@@ -1,4 +1,4 @@
-# task_2
-Tugas Pemweb Ke-2
+# Tugas Pemweb
+Repository For Tugas Pemweb
 Naufal Rotif Dewanto
 120140107
