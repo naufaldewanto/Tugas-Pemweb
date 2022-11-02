@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Saklar</title>
+</head>
+
+<body>
+    <h1 style="color:black">Switch ON / OFF Lampu</h1>
+    <div id="div2">
+        <button onclick="location.href='index.html';" id="buttonIndex">Index</button>
+    </div>
+
+    <div>
+        <img src="assets/images/off.gif" alt="" id="lampu1" />
+    </div>
+    <label class="switch">
+        <input type="checkbox" id="saklar1" onchange="saklar()">
+        <span class="slider round"></span>
+    </label>
+    <div>
+        <img src="assets/images/off.gif" alt="" id="lampu2" />
+    </div>
+    <label class="switch">
+        <input type="checkbox" id="saklar2" onchange="saklar()">
+        <span class="slider round"></span>
+    </label>
+    <div>
+        <img src="assets/images/off.gif" alt="" id="lampu3" />
+    </div>
+    <label class="switch">
+        <input type="checkbox" id="saklar3" onchange="saklar()">
+        <span class="slider round"></span>
+    </label>
+
+    <script src="saklar.js" type="text/javascript"></script>
+</body>
+
+</html>
